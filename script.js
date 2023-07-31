@@ -78,13 +78,13 @@ class Projectile{
 const x = canvas.width/2
 const y = canvas.height/2
 
-let player = new Player(x,y,10, 'yello')
+let player = new Player(x,y,10, 'white')
 let enemies = []
 let projectiles = []
 let particles = []
 let speedOfTheGame 
 function init() {
-     player = new Player(x,y,10, 'yello')
+     player = new Player(x,y,10, 'white')
      enemies = []
      projectiles = []
      particles = []
