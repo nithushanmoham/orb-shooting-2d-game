@@ -314,3 +314,4 @@ startGameBtn.addEventListener('click' , ()=> {
     sfx.lasershoot.mute(false);
 
 })
+
